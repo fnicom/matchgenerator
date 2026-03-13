@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import type { Team } from "@/types/team";
 
 type TeamCategory = "all" | "national" | "club";
 
